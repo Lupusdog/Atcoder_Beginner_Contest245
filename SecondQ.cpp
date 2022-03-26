@@ -10,9 +10,8 @@ int main() {
     cin >> N;
     for(int i = 0; i < N; i++) cin >> num[i];
 
-    bool pass = true;
-
     for(int i = 0; i <= 2000; i++){
+        bool pass = true;
         for(int j = 0; j < N; j++){
             if(i == num[j]) pass = false;
         }
